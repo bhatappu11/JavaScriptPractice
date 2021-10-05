@@ -30,3 +30,7 @@ console.log("Average: "+average);
 
 let inch = 42;
 console.log("42 inches in feet: "+(42*0.083333));
+
+let side1 = 60/3.2808;
+let side2 = 40/3.2808;
+console.log("60feetX40feet :: "+side1+"meters X "+side2+"meters");
