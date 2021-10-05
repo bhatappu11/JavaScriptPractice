@@ -1,0 +1,25 @@
+const readline = require('readline').createInterface({
+    input: process.stdin,
+    output: process.stdout
+});
+
+readline.question('Enter a number like 1,10,100 .. ',number => {
+    if(number == 1)
+        console.log("Unit");
+    else if(number == 10)
+        console.log("Ten");
+    else if(number == 100)
+        console.log("Hundred");
+    else if(number == 1000)
+        console.log("Thousand");
+    else if(number == 10000)
+        console.log("TenThousand");
+    else if(number == 100000)
+        console.log("Lakh");
+    else if(number == 1000000)
+        console.log("TenLakh");
+    else if(number == 10000000)
+        console.log("Crore");
+    else 
+        console.log("invalid number format");
+})
