@@ -27,3 +27,6 @@ for(let i=1;i<=5;i++) {
 console.log("Sum: "+sum);
 let average = sum/5;
 console.log("Average: "+average);
+
+let inch = 42;
+console.log("42 inches in feet: "+(42*0.083333));
