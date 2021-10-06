@@ -6,4 +6,4 @@ let randomArr = [];
 for(let index=0;index<10;index++){
     randomArr.push(getThreeDigitRandomNumber(100,999));
 }
-console.log(randomArr)
+console.log("Array: "+randomArr);
